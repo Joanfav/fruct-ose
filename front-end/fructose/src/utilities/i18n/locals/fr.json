@@ -1,0 +1,878 @@
+{
+    "bd_role_traduction": {
+        "ETUDIANT": "Étudiant",
+        "PROFESSEUR": "Professeur",
+        "EMPLOYEUR": "Employeur",
+        "ADMIN": "Administrateur"
+    },
+    "programme": {
+        "select": "Sélectionner un programme",
+        "cinema": "Cinéma",
+        "gestion_commerce": "Gestion de commerces",
+        "gestion_operations_chaine_logistique": "Gestion des opérations et de la chaîne logistique",
+        "journalisme_multimedia": "Journalisme multimédia",
+        "langues_trilinguisme_cultures": "Langues – profil Trilinguisme et cultures",
+        "photographie_design_graphique": "Photographie et design graphique",
+        "sciences_nature": "Sciences de la nature",
+        "sciences_humaines_administration_economie": "Sciences humaines – profil Administration et économie",
+        "sciences_humaines_individu_relations_humaines": "Sciences humaines – profil Individu et relations humaines",
+        "sciences_humaines_monde_en_action": "Sciences humaines – profil Monde en action",
+        "soins_infirmiers": "Soins infirmiers",
+        "soins_infirmiers_auxiliaires": "Soins infirmiers pour auxiliaires",
+        "techniques_education_enfance": "Techniques d’éducation à l’enfance",
+        "techniques_bureautique": "Techniques de bureautique",
+        "techniques_comptabilite_gestion": "Techniques de comptabilité et de gestion",
+        "techniques_informatique": "Techniques de l’informatique",
+        "techniques_travail_social": "Techniques de travail social",
+        "technologie_architecture": "Technologie de l’architecture",
+        "technologie_estimation_evaluation_batiment": "Technologie de l’estimation et de l’évaluation en bâtiment",
+        "technologie_genie_civil": "Technologie du génie civil",
+        "technologie_genie_electrique": "Technologie du génie électrique : automatisation et contrôle",
+        "technologie_genie_physique": "Technologie du génie physique",
+        "tremplin_dec": "Tremplin DEC"
+    },
+    "header_main_page": {
+        "signup": "S'inscrire",
+        "disconnect": "Déconnexion",
+        "notifications": "Notifications"
+    },
+    "home_page": {
+        "carriere": "Votre carrière",
+        "commence": "commence ",
+        "ici": "ici"
+    },
+    "connexion_page": {
+        "connexion": "Connexion",
+        "email": "Courriel",
+        "password": "Mot de passe",
+        "continue": "Continuer",
+        "error": {
+            "email": "Email est requis",
+            "password": "Mot de passe est requis",
+            "not_approved": "Votre compte n'est pas encore approuvé par l'administrateur. Veuillez attendre l'approbation.",
+            "invalid_email": "Email invalide",
+            "invalid_password": "Mot de passe invalide",
+            "unknown_error": "Erreur inconnue. Veuillez réessayer"
+        }
+    },
+    "creer_utilisateur_page": {
+        "creer_compte": "Créer un compte",
+        "carriere": "Commencer votre carrière n'a jamais été aussi facile",
+        "profile": "Votre profil",
+        "profile_2": "Informations cruciales pour votre profil",
+        "school": "Informations scolaires",
+        "school_2": "Informations relatives à votre progression académique",
+        "security": "Sécurité",
+        "pasword": "Créez votre mot de passe",
+        "finalization": "Finalisation",
+        "dashboard": "Accéder au tableau de bord",
+        "success_title": "Compte créé avec succès",
+        "success_text": "Attendez l'approbation de l'administrateur afin de pouvoir accéder à votre compte",
+        "error": {
+            "error_title": "Erreur"
+        }
+    },
+    "selection_role_page": {
+        "who_are_you": "Qui êtes-vous?",
+        "description": "Sélectionner le type d'utilisateur qui vous correspond",
+        "student": "Étudiant",
+        "teacher": "Enseignant",
+        "employer": "Employeur",
+        "continue": "Continuer"
+    },
+    "information_base_page": {
+        "information": "Informations de base",
+        "description": "Entrez votre prénom, nom de famille et l'adresse courriel que vous utiliserez pour vous connecter à la plateforme à partir de maintenant.",
+        "first_name": "Prénom",
+        "last_name": "Nom de famille",
+        "email": "Courriel",
+        "continue": "Continuer",
+        "error": {
+            "first_name_short": "Votre prénom doit contenir au moins 2 caractères",
+            "first_name_letters_only": "Votre prénom doit contenir uniquement des lettres et des espaces.",
+            "last_name_short": "Votre nom de famille doit contenir au moins 2 caractères",
+            "last_name_letters_only": "Votre nom de famille doit contenir uniquement des lettres et des espaces.",
+            "email": "L'adresse courriel doit être valide : exemple@gmail.com",
+            "email_taken": "L'adresse courriel est déjà utilisée"
+        }
+    },
+    "information_etudiant_page": {
+        "information": "Informations scolaires",
+        "description": "Entrez votre numéro de matricule défini par l'établissement ainsi que le programme d'études suivi.",
+        "matricule": "Numéro d'étudiant",
+        "program": "Programme",
+        "continue": "Continuer",
+        "error": {
+            "matricule": "Le numéro d'étudiant doit comporter 7 chiffres",
+            "department": "Aucun département n'est sélectionné",
+            "matricule_taken": "Le numéro d'étudiant est déjà utilisé"
+        }
+    },
+    "mot_de_passe_page": {
+        "title": "Créer votre mot de passe",
+        "description": "Un mot de passe complexe est moins susceptible d'être deviné par quelqu'un d'autre",
+        "description_2": "Votre mot de passe doit contenir au moins 8 caractères, dont une majuscule, une minuscule, un chiffre et un symbole",
+        "password": "Mot de passe",
+        "confirm_password": "Confirmer le mot de passe",
+        "submit": "Soumettre",
+        "error": {
+            "password_wrong": "Le mot de passe doit contenir au moins une lettre majuscule, un chiffre et un caractère spécial",
+            "password_doesnt_match": "Les mots de passe ne correspondent pas."
+        }
+    },
+    "information_employeur_page": {
+        "title": "Informations sur l'employeur",
+        "description": "Entrez les informations requises sur l'entreprise offrant les stages",
+        "company_name": "Nom de l'entreprise",
+        "continue": "Continuer",
+        "error": {
+            "company_name_invalid": "Le nom de l'entreprise doit contenir uniquement des lettres et des espaces",
+            "company_name_lenght": "Le nom de l'entreprise doit contenir entre 3 et 100 caractères"
+        }
+    },
+    "information_professeur_page": {
+        "title": "Informations sur votre emploi",
+        "description": "Entrez votre numéro d'employé défini par l'établissement ainsi que le département d'appartenance",
+        "employee_number": "Numéro d'employé",
+        "department": "Département",
+        "select_department": "Sélectionnez un département",
+        "continue": "Continuer",
+        "error": {
+            "error_title": "Erreur",
+            "employee_number": "Le numéro d'employé doit comporter 7 chiffres",
+            "department": "Aucun département n'est sélectionné",
+            "employee_number_taken": "Ce matricule est déjà utilisé par un autre utilisateur"
+        }
+    },
+    "creer_offre_stage_page": {
+        "title": "Créer une offre de stage",
+        "nom": "Titre de l'emploi",
+        "poste": "Nom du poste",
+        "description": "Description",
+        "compagnie": "Nom de la Compagnie",
+        "address": "Adresse",
+        "taux_horaire": "Taux horaire",
+        "nombre_heures_semaine": "Nombre d'heures par semaine",
+        "nombre_postes": "Nombre de postes à combler",
+        "type_emploi": "Type d'emploi",
+        "programme_etudes": "Programme d'études",
+        "modalite_travail": "Modalité de travail",
+        "date_limite_candidate": "Date limite de candidature",
+        "date_debut": "Date de début",
+        "date_fin": "Date de fin",
+        "creer_offre_stage": "Créer l'offre de stage",
+        "retour": "Retour a l'accueil",
+        "employeurs": "Employeurs",
+        "employeur_select": "Sélectionner un employeur",
+        "types_emploi": {
+            "select": "Sélectionner un type d'emploi",
+            "temps_partiel": "Temps partiel",
+            "temps_plein": "Temps plein"
+        },
+        "modalites_travail": {
+            "select": "Sélectionner une modalité de travail",
+            "virtuel": "Télétravail",
+            "presentiel": "Présentiel",
+            "hybride": "Hybride"
+        },
+        "errors": {
+            "nom": "Le nom doit contenir entre 3 et 100 caractères",
+            "poste": "Le poste doit contenir entre 3 et 100 caractères",
+            "description": "La description doit contenir entre 10 et 500 caractères",
+            "compagnie": "Le nom de la compagnie doit contenir entre 3 et 100 caractères",
+            "address": "L'adresse doit contenir entre 3 et 100 caractères",
+            "taux_horaire": "Le taux horaire doit être un nombre positif",
+            "nombre_heures_semaine_inferieur": "Le nombre d'heures par semaine doit être supérieur à 1",
+            "nombre_heures_semaine_superieur": "Le nombre d'heures par semaine doit être inférieur à 40",
+            "nombre_postes": "Le nombre de postes doit être un nombre positif",
+            "programme_etudes_select": "Le programme d'études doit être sélectionné",
+            "modalite_travail_select": "La modalité de travail doit être sélectionnée",
+            "type_emploi_select": "Le type d'emploi doit être sélectionné"
+        },
+        "steps": {
+            "1": {
+                "title": "Informations de base",
+                "description": "Veuillez remplir les champs ci-dessous en fournissant le nom officiel de votre compagnie ainsi que son adresse complète, incluant le numéro de rue, le nom de la rue, la ville, le code postal et le pays."
+            },
+            "2": {
+                "title": "Informations sur l'emploi",
+                "description": "Entrer les informations requises pour permettre aux étudiants de mieux vous trouver."
+            },
+            "3": {
+                "title": "Description",
+                "description": "Entrer une description détailée de l'emploi, incluant une description du rôle de l'employé, des qualités recherchées, ainsi que l'expéreience requise."
+            },
+            "4": {
+                "title": "Particularités",
+                "description": "En choisissant parmi les choix si-dessous, décrivez les différents modes de votre emploi."
+            },
+            "5": {
+                "title": "Dates",
+                "description": "Entrer la date du début et la fin du stage, ainsi que la date limite de candidature."
+            },
+            "6": {
+                "success": "Succes",
+                "success_text": "Votre offre de stage a été soumise. Veuillez allouer un délai afin que l'administrateur approuve votre offre.",
+                "go_to_dashboard": "Revenir à l'accueil"
+            }
+        }
+    },
+    "modal": {
+        "validate": "Accepter",
+        "reject": "Rejeter",
+        "reject_reason": "Raison du refus",
+        "reject_reason_placeholder": "Entrez le commentaire du refus ici",
+        "send": "Envoyer",
+        "close": "Fermer",
+        "generate": "Générer",
+        "generate_pdf": "Génération du Contrat de stage",
+        "view_contrat": "Le contrat",
+        "loading_pdf": "Loading the contract"
+    },
+    "dashboard_home_page": {
+        "home": "Accueil",
+        "offer": "Offre de stage",
+        "explore": "Explorer",
+        "no_offers": "Aucune offre à afficher pour le moment",
+        "my_offers": "Offres de stage",
+        "manage_offers": "Gérer les offres de stage en attente d'approbation",
+        "manage_cv": "Gérer les Curiculums Vitae en attente d'approbation",
+        "add_offer": "Nouvelle offre",
+        "offers": "Offres de stage",
+        "hello": "Bonjour",
+        "of": "de",
+        "portfolio": "Mon Portfolio",
+        "add_cv": "Ajouter un CV",
+        "manage": "Gérer",
+        "no_cv": "Aucun CV à afficher pour le moment",
+        "user_info": "Informations sur l'utilisateur",
+        "full_name": "Nom complet",
+        "email": "Courriel",
+        "studentID": "Numéro d'étudiant",
+        "employeID": "Numéro d'employé",
+        "role": "Rôle",
+        "user_management": "Gestion des utilisateurs",
+        "not_approved_users": "Utilisateurs non approuvés",
+        "limited_places": "Places limitées",
+        "modalFermer": "Fermer",
+        "my_applications": "Mes Candidatures",
+        "no_applications": "Vous n'avez pas encore postulé à une Offre de Stage",
+        "at": "chez",
+        "application": "Candidature",
+        "view_offer": "Voir l'offre",
+        "initial_application": "Candidature initiale",
+        "waiting_employer_response": "En attente de la réponse de l'employeur",
+        "approve": "Approuvé",
+        "rejected_with_comment": "Refusé avec commentaire",
+        "interview": "Entrevue",
+        "waiting_interview_acceptance": "En attente de l'acceptation de l'entrevue",
+        "interview_date": "Date de l'entrevue",
+        "accept": "Accepter",
+        "refuse": "Refuser",
+        "interview_accepted_by_student": "Entrevue acceptée par l'étudiant",
+        "proposed_interview_date": "Date proposée pour l'entrevue",
+        "interview_rejected_by_student": "Entrevue refusée par l'étudiant",
+        "interview_not_planned_for_rejected_application": "Entrevue non planifiée pour une candidature refusée",
+        "waiting_initial_application": "En attente de la candidature initiale",
+        "contract": "Contrat",
+        "contract_not_proposed_for_rejected_interview": "L'entrevue ne peut pas être planifiée pour une candidature refusée",
+        "contract_signed_by_employer": "Contrat signé par l'employeur",
+        "sign": "Signer",
+        "no_sign": "Ne pas signer",
+        "contract_signed_by_student": "Contrat signé par l'étudiant",
+        "waiting_manager_signature": "En attente de la signature du gestionnaire",
+        "contract_rejected_by_student": "Contrat refusé par l'étudiant",
+        "contract_signed_by_all": "Contrat signé par tous",
+        "application_rejected_after_interview": "Candidature refusée après l'entrevue",
+        "waiting_interview_results": "En attente des résultats de l'entrevue",
+        "see": "Voir",
+        "see_all": "Voir tout",
+        "are_you_sure": "Êtes-vous sûr?",
+        "proposed_interview_date_employeur": "La date de votre entrevue proposée par Employeur est le",
+        "acceptance_irreversible": "L'acceptation est irréversible et vous engage à participer à l'entrevue à cette date.",
+        "yes_accept": "Oui, accepter!",
+        "cancel": "Annuler",
+        "accepted": "Accepté!",
+        "interview_accepted": "L'entrevue a été acceptée.",
+        "error": "Erreur!",
+        "interview_refusal_failed_acceptation": "Échec de l'acceptation de l'entrevue.",
+        "interview_refusal_error_acceptation": "Une erreur s'est produite lors de l'acceptation de l'entrevue.",
+        "refuse_interview_warning": "Vous êtes sur le point de refuser l'entrevue. Cette action est irréversible. Votre candidature pour cet Offre de Stage sera refusée.",
+        "yes_refuse": "Oui, refuser!",
+        "refused": "Refusé!",
+        "interview_refused": "L'entrevue a été refusée.",
+        "interview_refusal_failed": "Échec du refus de l'entrevue.",
+        "interview_refusal_error": "Une erreur s'est produite lors du refus de l'entrevue.",
+        "sign_contract_warning": "Vous seriez invité à signer le contrat. Cette action est irréversible. Votre candidature pour cet Offre de Stage sera approuvé.",
+        "yes_sign_contract": "Oui, signer le contrat!",
+        "review_decision": "Reviser ma décision",
+        "contract_signed_success": "Le contrat a été signé avec succès.",
+        "contract_signing_failed": "Échec de la signature du contrat.",
+        "contract_signing_error": "Une erreur s'est produite lors de la signature du contrat.",
+        "refuse_contract_warning": "Vous êtes sur le point de refuser la signature du contrat. Cette action est irréversible. Votre candidature pour cet Offre de Stage sera refusée.",
+        "yes_refuse_contract": "Oui, refuser la signature!",
+        "contract_refused": "La signature du contrat a été refusé.",
+        "contract_refusal_failed": "Échec du refus de la signature du contrat.",
+        "contract_refusal_error": "Une erreur s'est produite lors du refus du contrat.",
+        "waiting_contract_generation": "En attente de la génération du Contrat par Gestionnaire",
+        "delete_stage_confirmation": "Êtes-vous sûr de vouloir supprimer cette offre de stage?",
+        "delete_stage_confirmation_text": "Cette action est irréversible et supprimera définitivement cette offre de stage.",
+        "delete_stage_confirm_button_text": "Oui, supprimer",
+        "delete_stage_cancel_button_text": "Non, annuler",
+        "no_comment_reject_cv_text": "Veuillez entrer un commentaire pour le refus",
+        "cv_rejected_success": "CV refusé avec succès",
+        "cv_accept_title": "Vous êtes sur le point d'accepter le CV",
+        "cv_accept_text": "Avez-vous vérifié le CV et êtes-vous sûr de vouloir l'accepter?",
+        "cv_accept_confirm_button": "Oui, accepter",
+        "cv_accept_cancel_button": "Non, annuler",
+        "cv_accepted_success": "CV a été accepté avec succès",
+        "cv_accepted_error": "Erreur lors de l'acceptation du CV",
+        "offer_rejected_success": "L'Offre de stage a été refusée avec succès",
+        "no_comment_reject_offer_text": "Veuillez entrer un commentaire pour le refus",
+        "manage_evaluations": "Stagiaires évalués",
+        "no_evaluation": "Aucune évaluation à afficher pour le moment",
+        "manage_evaluations_milieu_stage": "Manage Milieu Stage Evaluations",
+        "find_and_apply": "Trouver et postuler à des offres de stage"
+    },
+    "pdf_view_page": {
+        "error": "Une erreur inconnue est survenue"
+    },
+    "view_page": {
+        "home": "Accueil",
+        "hello": "Bonjour"
+    },
+    "upload_page": {
+        "drag_drop": "Glissez et déposez votre CV ici",
+        "or": "OU",
+        "browse": "Parcourir",
+        "accepted_formats": "Formats acceptés : PDF",
+        "upload": "Téléverser",
+        "upload_cv": "Téléversez votre CV"
+    },
+    "manage_cv_page": {
+        "my_cvs": "Mes Curiculums Vitae"
+    },
+    "manage_users_page": {
+        "not_approved_users": "Utilisateurs non approuvés",
+        "no_users_to_approve": "Aucun utilisateur à approuver",
+        "when_created": "Lorsqu'un utilisateur est créé, il apparaîtra ici",
+        "approve": "Approuver",
+        "approved": "Approuvé",
+        "delete": "Supprimer",
+        "user_details": "Détails de l'utilisateur",
+        "details": "Détails",
+        "in_probation": "En attente",
+        "role": "Rôle",
+        "department": "Département",
+        "matricule": "Matricule",
+        "company": "Entreprise",
+        "actions": "Actions"
+    },
+    "manage_cv": {
+        "upload_error": "Erreur lors du téléchargement du CV",
+        "status": {
+            "pending": "En approbation",
+            "approved": "Approuvé",
+            "rejected": "Refusé"
+        },
+        "buttons": {
+            "add": "Ajouter",
+            "accept": "Accepter",
+            "reject": "Refuser",
+            "download": "Télécharger",
+            "delete": "Supprimer"
+        },
+        "messages": {
+            "no_cvs": "Aucun CV dans votre dossier",
+            "reject_reason": "Raison: "
+        },
+        "titles": {
+            "cvs": "Mes Curiuculums Vitae",
+            "preview": "Aperçu"
+        }
+    },
+    "upload_cv": {
+        "title": "Téléverser un CV",
+        "drag_drop": "Glissez votre CV ici",
+        "or": "OU",
+        "select_button": "Sélectionner",
+        "accepted_formats": "Format des fichiers acceptés : PDF",
+        "upload_button": "Téléverser",
+        "error_file_required": "Veuillez sélectionner un fichier avant de soumettre.",
+        "upload_error": "Une erreur est survenue lors du téléversement.",
+        "error_file_size_exceeded": "La taille du fichier dépasse la limite autorisée de {{maxSize}} KB."
+    },
+    "manage_offre_stage": {
+        "titles": {
+            "offre_stages": "Offres de stage",
+            "details": "Détails"
+        },
+        "status": {
+            "pending": "En attente",
+            "approved": "Approuvé",
+            "rejected": "Rejeté"
+        },
+        "labels": {
+            "company": "Société",
+            "position": "Poste",
+            "department": "Département",
+            "hourly_rate": "Taux horaire",
+            "type": "Type d'emploi",
+            "address": "Adresse",
+            "work_mode": "Modalité de travail",
+            "start_date": "Date de début",
+            "end_date": "Date de fin",
+            "hours_per_week": "Heures par semaine",
+            "number_of_positions": "Nombre de postes",
+            "application_deadline": "Date limite de candidature"
+        },
+        "buttons": {
+            "add": "Ajouter",
+            "modify": "Modifier",
+            "delete": "Supprimer"
+        },
+        "messages": {
+            "no_offre_stages_contracts": "Aucun Contrat à générer pour le moment"
+        }
+    },
+    "modifier_offre_stage_page": {
+        "title": "Modifier l'offre de stage",
+        "nom": "Nom",
+        "poste": "Poste",
+        "description": "Description",
+        "compagnie": "Compagnie",
+        "adresse": "Adresse",
+        "taux_horaire": "Taux horaire",
+        "nombre_heures_semaine": "Nombre d'heures par semaine",
+        "nombre_postes": "Nombre de postes",
+        "type_emploi": "Type d'emploi",
+        "departement": "Programme d'études",
+        "modalite_travail": "Modalité de travail",
+        "date_limite_candidate": "Date limite de candidature",
+        "date_debut": "Date de début",
+        "date_fin": "Date de fin",
+        "modify_offre_stage": "Modifier l'offre de stage",
+        "retour": "Retour à l'accueil",
+        "types_emploi": {
+            "select": "Sélectionner un type d'emploi",
+            "temps_partiel": "Temps partiel",
+            "temps_plein": "Temps plein"
+        },
+        "modalites_travail": {
+            "select": "Sélectionner une modalité de travail",
+            "teletravail": "Télétravail",
+            "presentiel": "Présentiel",
+            "hybride": "Hybride"
+        },
+        "errors": {
+            "nom": "Le nom doit contenir entre 3 et 100 caractères",
+            "poste": "Le poste doit contenir entre 3 et 100 caractères",
+            "description": "La description doit contenir entre 10 et 500 caractères",
+            "compagnie": "Le nom de la compagnie doit contenir entre 3 et 100 caractères",
+            "address": "L'adresse doit contenir entre 3 et 100 caractères",
+            "taux_horaire": "Le taux horaire doit être un nombre positif",
+            "nombre_heures_semaine_inferieur": "Le nombre d'heures par semaine doit être supérieur à 1",
+            "nombre_heures_semaine_superieur": "Le nombre d'heures par semaine doit être inférieur à 40",
+            "nombre_postes": "Le nombre de postes doit être un nombre positif",
+            "programme_etudes_select": "Le programme d'études doit être sélectionné",
+            "modalite_travail_select": "La modalité de travail doit être sélectionnée",
+            "type_emploi_select": "Le type d'emploi doit être sélectionné"
+        },
+        "disclaimer": "Toute modification des informations de l'offre de stage est sujet d'une re-examination par le gestionnaire"
+    },
+    "offer_status": {
+        "approved": "Approuvé",
+        "refused": "Refusé",
+        "pending": "En attente"
+    },
+    "discover_offers_page": {
+        "title": "Découvrir les offres de stage",
+        "results": "Résultats",
+        "apply": "Postuler",
+        "particularities": "Particularités",
+        "salary": "Salaire",
+        "internship_type": "Type de stage",
+        "approved": "Approuvé",
+        "refused": "Refusé",
+        "pending": "En attente",
+        "refusal_reason": "Raison du refus : ",
+        "hours_one": "{{count}} Heure",
+        "hours_other": "{{count}} Heures",
+        "types_emploi": {
+            "temps_partiel": "Temps partiel",
+            "temps_plein": "Temps plein"
+        },
+        "work_type": {
+            "title": "Modalité de travail",
+            "virtuel": "À distance",
+            "presentiel": "En présentiel",
+            "hybride": "Hybride"
+        },
+        "internship_duration": "Durée du stage",
+        "location": "Emplacement",
+        "description": "Description",
+        "employer": "Employeur",
+        "contact": "Contact",
+        "month_one": "{{count}} Mois",
+        "month_other": "{{count}} Mois",
+        "no_offers": "Aucune offre à afficher pour le moment",
+        "future_offers": "Elles apparaîtront ici lorsqu'elles seront disponibles",
+        "limited_places": "Places limitées",
+        "filters": {
+            "title": "Filtres",
+            "all": "Tous",
+            "internship_type": {
+                "title": "Type de stage",
+                "temps_partiel": "Temps partiel",
+                "temps_plein": "Temps plein"
+            },
+            "emplacement": {
+                "title": "Emplacement",
+                "presentiel": "Présentiel",
+                "virtuel": "Virtuel",
+                "hybride": "Hybride"
+            },
+            "taux_horaire_minimum": {
+                "title": "Taux horaire minimum"
+            },
+            "sessions": {
+                "title": "Session",
+                "hiver": "Hiver",
+                "automne": "Automne"
+            }
+        },
+        "reset": "Réinitialiser",
+        "search": "Rechercher",
+        "actions": "Actions",
+        "applied": "Postulé"
+    },
+    "apply_offre_window": {
+        "send_my_candidature": "Envoyer ma candidature",
+        "cv_to_send": "Curriculum Vitae à envoyer",
+        "note": "Note: Seuls les CV approuvés apparaîtront dans la liste.",
+        "no_cv": "Aucun CV approuvé dans votre dossier. Vous ne pourrez postuler sans un CV approuvé.",
+        "cancel": "Annuler",
+        "send": "Postuler",
+        "see_cv": "Voir mes CVs"
+    },
+    "candidature_progress": {
+        "send": "Envoyer",
+        "selection": "Sélection",
+        "interview": "Entrevue",
+        "contract": "Contrat",
+        "position": "Poste"
+    },
+    "view_candidatures_page": {
+        "interview_date": "Sélectionner une date pour l'entrevue",
+        "sweetalert": {
+            "success": "Succès",
+            "approved": "L'entrevue a été proposée",
+            "refused": "La candidature a été refusée",
+            "error": "Erreur",
+            "error_commentaire_refus": "Veuillez entrer un commentaire pour le refus",
+            "error_date_entrevue": "Veuillez entrer une date pour l'entrevue"
+        },
+        "categories": {
+            "all": "Toutes les candidatures",
+            "nouvelles_candidatures": "Nouvelles candidatures",
+            "en_entrevue": "Candatures en entrevue",
+            "en_signature": "Candatures en signature de contrat",
+            "accepte_total": "Candatures acceptées",
+            "rejete_total": "Candatures rejetées"
+        },
+        "title": "Gestion des Candidatures",
+        "no_comment": "Aucun Commentaire",
+        "employeur_comment": "Commentaire de l'employeur",
+        "new_applications": "Nouvelles candidatures",
+        "in_interview": "En Entrevue",
+        "in_contract_signature": "En signature Contrat",
+        "accepted_position": "Poste Accepté",
+        "rejected_applications": "Candidatures rejetées",
+        "your_applications": "Vos Candidatures",
+        "action_needed": "Action Nécessaire",
+        "no_results": "Aucun résultat",
+        "no_results_description": "Les futures candidatures qui répondent à ce critère apparaîtront ici",
+        "application": "Candidature",
+        "loading": "Loading",
+        "view_offer": "Voir Offre",
+        "applicant_profile": "Profil de l'applicant",
+        "initial_application": "Candidature initiale",
+        "approve": "Approuver",
+        "refuse": "Refuser",
+        "approved": "Approuvé",
+        "refused_with_comment": "Refusé",
+        "interview": "Entrevue",
+        "waiting_for_student_confirmation": "En attente de la confirmation d'étudiant",
+        "proposed_interview_date": "Date de l'entrevue proposé: {{date}}",
+        "interview_accepted_by_student": "Entrevue a été acceptée par l'étudiant",
+        "interview_not_planned_for_refused_application": "L'entrevue ne peut être planifiée pour une candidature refusée",
+        "interview_refused_by_student": "Entrevue a été refusée par l'étudiant",
+        "waiting_for_initial_application": "En attente de la candidature initiale",
+        "contract": "Contrat",
+        "contract_not_signed_for_refused_application": "Le contrat ne peut être signé pour une candidature refusée",
+        "contract_signed_by_student": "Contrat a été bien signé par l'étudiant",
+        "waiting_for_employer_signature": "En attente de la signature de l'Employeur",
+        "waiting_for_student_signature": "En attente de la signature de l'Étudiant",
+        "waiting_for_contract_generation": "En attente de la génération du Contrat par Gestionnaire",
+        "contract_not_signed_after_interview_refusal": "Le contrat ne peut être signé. La candidature était refusée après l'entrevue",
+        "contract_refused_by_student": "La signature du contrat a été refusée par Étudiant",
+        "contract_refused_by_employer": "La signature du contrat a été refusée par Employeur",
+        "contract_signed_by_all": "Tout le monde a signé le contrat. La candidature a été acceptée",
+        "contract_refused_by_all": "Ni l'Employeur ni l'Étudiant n'ont signé le contrat. La candidature a été refusée",
+        "contract_not_signed_after_interview_refusal_by_student": "Le contrat ne peut être signé. L'entrevue a été refusée par l'étudiant",
+        "contract_cannot_be_signed_entrevue_rejected_by_student": "Le contrat ne peut pas être signé. Vous avez réfusé l'entrevue",
+        "waiting_for_interview_results": "En attente des résultats de l'entrevue",
+        "confirm_accept_title": "Êtes-vous sûr?",
+        "confirm_accept_text": "Vous êtes sur le point d'accepter la candidature en raison de la réussite de l'entrevue. Voulez-vous continuer?",
+        "confirm_accept_confirm_button": "Oui, je veux ce stagiaire!",
+        "confirm_accept_cancel_button": "Réviser ma décision",
+        "accepted_title": "Accepté!",
+        "accepted_text": "L'entrevue a été passée avec succès. La candidature a été acceptée.",
+        "error_title": "Erreur!",
+        "error_update_text": "Échec de la mise à jour de l'état de l'entrevue.",
+        "error_occurred_text": "Une erreur s'est produite lors de la mise à jour de l'état.",
+        "confirm_reject_title": "Êtes-vous sûr?",
+        "confirm_reject_text": "Vous êtes sur le point de refuser la candidature en raison de l'échec de l'entrevue. Voulez-vous continuer?",
+        "confirm_reject_confirm_button": "Oui, refuser la candidature!",
+        "confirm_reject_cancel_button": "Reviser ma décision",
+        "rejected_title": "Refusé!",
+        "rejected_text": "La candidature a été refusée en raison de l'échec de l'entrevue.",
+        "error_reject_text": "Échec du refus de la candidature.",
+        "accept": "Accepter",
+        "you_passed_entrevue": "Vous avez passé l'entrevue avec succès.",
+        "student_passed_entrevue": "Étudiant a passé l'entrevue avec succès.",
+        "waiting_for_your_signature": "En attente de votre signature",
+        "employeur_candidature_initiale_info": "L'étudiant a soumis une candidature pour votre poste. Examinez son dossier, et cliquer sur Accepter pour continuer la démarche, ou Rejeter si vous pensez qu'il n'est pas éligible pour ce poste.",
+        "etudiant_entrevue_initiale_info": "L'employeur a fixé une entrevue à la date indiquée. Vous devez accepter ou refuser cette entrevue. Notez que vous ne pourriez plus continuer avec votre candidature si vous refusez l'entrevue.",
+        "employeur_entrevue_info": "Après avoir passé à l'entrevue, veuillez accepter ou refuser la candidature de l'applicant pour passer à la prochaine étape.",
+        "titre_poste_obtenu": "Poste obtenu",
+        "poste_obtenu": "Félicitations! Vous avez obtenu ce poste et faites maintenant partie de l'équipe.",
+        "categorie_selection": "Cliquez ici pour accèder aux nouvelles candidatures qui ont besoin de votre action ou tout autre catégorie qui est pertinente"
+    },
+    "manage_contract_page": {
+        "title_generate_contract": "Contrats de stage à générer",
+        "title_see_contract": "Liste des contrats",
+        "list_contrats": "Liste des contrats",
+        "one_refused_contract_text": "Une des parties a refusé le contrat",
+        "waiting_sign_from_parties": "Le contrat est en attente de signatures",
+        "contract_signed": "Toutes les signatures ont été recueillies"
+    },
+    "sign_contract_swal": {
+        "confirm_sign_title": "Êtes-vous sûr?",
+        "confirm_sign_text": "Vous êtes sur le point de signer le contrat. Voulez-vous continuer?",
+        "confirm_sign_confirm_button": "Oui, signer le contrat!",
+        "confirm_sign_cancel_button": "Non, annuler",
+        "success_title": "Vous avez accepté les termes du contrat!",
+        "confirm_refuse_title": "Êtes-vous sûr?",
+        "confirm_refuse_text": "Vous êtes sur le point de refuser de signer le contrat. Voulez-vous continuer?",
+        "confirm_refuse_confirm_button": "Oui, refuser le contrat!",
+        "confirm_refuse_cancel_button": "Non, annuler",
+        "success_refused_title": "Vous avez refusé de signer le contrat!",
+        "manage_contract_en_attente": {
+            "title": "Contrats de stage en attente de génération"
+        }
+    },
+    "evaluation_employeur": {
+        "stagiaire_a_evaluer": "Stagiaire à évaluer",
+        "no_stagiaire_a_evaluer": "Aucun stagiaire à évaluer",
+        "evaluation_non_disponible": "évaluation non disponible avant le :",
+        "evaluation_disponible": "évaluation disponible",
+        "evaluer": "Évaluer",
+        "step": {
+            "productivite": {
+                "title": "Étape 1: Productivité",
+                "description": "Capacité d’optimiser son rendement au travail",
+                "fields": {
+                    "field1": "Planifier et organiser son travail de façon efficace",
+                    "field2": "Comprendre rapidement les directives relatives à son travail",
+                    "field3": "Maintenir un rythme de travail soutenu",
+                    "field4": "Établir ses priorités",
+                    "field5": "Respecter ses échéanciers"
+                }
+            },
+            "qualiteTravail": {
+                "title": "Étape 2: QUALITÉ DU TRAVAIL",
+                "description": "Capacité de s’acquitter des tâches sous sa responsabilité en s’imposant personnellement des normes de qualité",
+                "fields": {
+                    "field1": "Respecter les mandats qui lui ont été confiés",
+                    "field2": "Porter attention aux détails dans la réalisation de ses tâches",
+                    "field3": "Vérifier son travail, s’assurer que rien n’a été oublié",
+                    "field4": "Rechercher des occasions de se perfectionner",
+                    "field5": "Faire une bonne analyse des problèmes rencontrés"
+                }
+            },
+            "relationsInterpersonnelles": {
+                "title": "Étape 3: QUALITÉS DES RELATIONS",
+                "description": "Capacité d’établir des interrelations harmonieuses dans son milieu de travail",
+                "fields": {
+                    "field1": "Établir facilement des contacts avec les gens",
+                    "field2": "Contribuer activement au travail d’équipe",
+                    "field3": "S’adapter facilement à la culture de l’entreprise",
+                    "field4": "Accepter les critiques constructives",
+                    "field5": "Être respectueux envers les gens",
+                    "field6": "Faire preuve d’écoute active en essayant de comprendre le point de vue de l’autre"
+                }
+            },
+            "habiletesPersonnelles": {
+                "title": "Étape 4: HABILETÉS PERSONNELLES",
+                "description": "Capacité de faire preuve d’attitudes ou de comportements matures et responsables",
+                "fields": {
+                    "field1": "Démontrer de l’intérêt et de la motivation au travail",
+                    "field2": "Exprimer clairement ses idées",
+                    "field3": "Faire preuve d’initiative",
+                    "field4": "Travailler de façon sécuritaire",
+                    "field5": "Démontrer un bon sens des responsabilités ne requérant qu’un minimum de supervision",
+                    "field6": "Être ponctuel et assidu à son travail"
+                }
+            },
+            "total_agree": "Tout à fait d'accord",
+            "mostly_agree": "Plutôt d'accord",
+            "mostly_disagree": "Plutôt pas d'accord",
+            "total_disagree": "Pas du tout d'accord",
+            "select": "Sélectionner",
+            "comment": "Commentaire",
+            "appreciationGlobale": {
+                "title": "Étape 5: Appréciation globale",
+                "description": "Les habiletés démontrées :",
+                "options": {
+                    "option1": "Dépassent de beaucoup les attentes",
+                    "option2": "Dépassent les attentes",
+                    "option3": "Répondent pleinement aux attentes",
+                    "option4": "Répondent partiellement aux attentes",
+                    "option5": "Ne répondent pas aux attentes"
+                },
+                "comment_label": "Précisez votre appréciation :"
+            },
+            "evaluationFinale": {
+                "title": "Étape 6: Évaluation finale",
+                "discussion_label": "Cette évaluation a été discutée avec le stagiaire :",
+                "hours_label": "Nombre d’heures réel d’encadrement :",
+                "stage_label": "L’entreprise aimerait accueillir l’élève :",
+                "stage_options": {
+                    "yes": "Oui",
+                    "no": "Non",
+                    "maybe": "Peut-être"
+                },
+                "signature_label": "Signature :"
+            },
+            "submit": "Soumettre",
+            "next": "Suivant",
+            "previous": "Précédent",
+            "back_to_dashboard": "Retour au tableau de bord"
+        },
+        "evaluation_steps": {
+            "title": "Évaluation",
+            "step1": {
+                "title": "Étape 1: Productivité",
+                "description": "Capacité d’optimiser son rendement au travail"
+            },
+            "step2": {
+                "title": "Étape 2: Qualité du travail",
+                "description": "Capacité de s’acquitter des tâches sous sa responsabilité en s’imposant personnellement des normes de qualité"
+            },
+            "step3": {
+                "title": "Étape 3: Qualités des relations",
+                "description": "Capacité d’établir des interrelations harmonieuses dans son milieu de travail"
+            },
+            "step4": {
+                "title": "Étape 4: Habiletés personnelles",
+                "description": "Capacité de faire preuve d’attitudes ou de comportements matures et responsables"
+            },
+            "step5": {
+                "title": "Étape 5: Appréciation globale"
+            },
+            "step6": {
+                "title": "Étape 6: Évaluation finale"
+            },
+            "no_step": "Aucune étape sélectionnée"
+        }
+    },
+    "evaluation_milieu_stage": {
+        "evaluation_milieu_stage": "Évaluation(s) de milieu de stage",
+        "milieu_stage_a_evaluer": "Milieu de stage à évaluer",
+        "no_evaluation": "Aucune évaluation de milieu de stage à afficher pour le moment",
+        "no_milieu_stage_a_evaluer": "Aucun milieu de stage à évaluer",
+        "evaluation_non_disponible": "Évaluation non disponible avant :",
+        "evaluation_disponible": "Évaluation disponible",
+        "evaluer": "Évaluer",
+        "required": "Champ obligatoire",
+        "step": {
+            "general": {
+                "title": "Informations Générales",
+                "stage_type": "Premier ou deuxième stage",
+                "hours_per_week_first_month": "Heures par semaine (Premier Mois)",
+                "hours_per_week_second_month": "Heures par semaine (Deuxième Mois)",
+                "hours_per_week_third_month": "Heures par semaine (Troisième Mois)",
+                "hourly_rate": "Taux horaire",
+                "stage1": "Stage 1",
+                "stage2": "Stage 2"
+            },
+            "section2": {
+                "title": "Section 2 : Critères d'Évaluation",
+                "description": "Évaluez les critères suivants :",
+                "fields": {
+                    "field1": "Les tâches confiées au stagiaire sont conformes aux tâches annoncées dans l’entente de stage",
+                    "field2": "Des mesures d’accueil facilitent l’intégration du nouveau stagiaire",
+                    "field3": "Le temps réel consacré à l’encadrement du stagiaire est suffisant",
+                    "field4": "L’environnement de travail respecte les normes d’hygiène et de sécurité au travail",
+                    "field5": "Le climat de travail est agréable"
+                }
+            },
+            "section3": {
+                "title": "Section 3 : Critères d'Évaluation",
+                "description": "Évaluez les critères suivants :",
+                "fields": {
+                    "field1": "Le milieu de stage est accessible par transport en commun",
+                    "field2": "Le salaire offert est intéressant pour le stagiaire",
+                    "field3": "La communication avec le superviseur de stage facilite le déroulement du stage",
+                    "field4": "L’équipement fourni est adéquat pour réaliser les tâches confiées",
+                    "field5": "Le volume de travail est acceptable"
+                }
+            },
+            "section4": {
+                "title": "Section 4 : Observations Générales",
+                "field1": "Milieu de stage à prioriser pour :",
+                "field2": "Signature du superviseur",
+                "field3": "Nombre d'étudiants pouvant être accueillis",
+                "field4": "Même stagiaire pour le prochain stage",
+                "field5": "Horaire de travail variable",
+                "field6": "Début du quart de travail 1",
+                "field7": "Début du quart de travail 2",
+                "field8": "Début du quart de travail 3",
+                "yes": "Oui",
+                "no": "Non"
+            },
+            "total_agree": "Totalement d'accord",
+            "mostly_agree": "Plutôt d'accord",
+            "mostly_disagree": "Plutôt en désaccord",
+            "total_disagree": "Totalement en désaccord",
+            "select": "Sélectionner",
+            "comment": "Commentaire",
+            "previous": "Précédent",
+            "next": "Suivant",
+            "submit": "Soumettre",
+            "back_to_dashboard": "Retour au tableau de bord",
+            "capaciteEtudiant": {
+                "UN_STAGIAIRE": "Un stagiaire",
+                "DEUX_STAGIAIRES": "Deux stagiaires",
+                "TROIS_STAGIAIRES": "Trois stagiaires",
+                "PLUS_DE_TROIS": "Plus de trois stagiaires"
+            }
+        },
+        "evaluation_steps": {
+            "title": "Évaluation de milieu de stage",
+            "step1": {
+                "title": "Étape 1 : Informations Générales"
+            },
+            "step2": {
+                "title": "Étape 2 : Critères d'Évaluation"
+            },
+            "step3": {
+                "title": "Étape 3 : Critères d'Évaluation"
+            },
+            "step4": {
+                "title": "Étape 4 : Observations Générales"
+            }
+        }
+    }
+}

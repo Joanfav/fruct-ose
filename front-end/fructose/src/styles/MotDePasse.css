@@ -1,0 +1,9 @@
+.password-input-container {
+	display: flex;
+	align-items: center;
+}
+
+.password-toggle-icon {
+	cursor: pointer;
+	margin-left: 8px;
+}

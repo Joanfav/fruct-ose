@@ -1,0 +1,878 @@
+{
+    "bd_role_traduction": {
+        "ETUDIANT": "Student",
+        "PROFESSEUR": "Professor",
+        "EMPLOYEUR": "Employer",
+        "ADMIN": "Administrator"
+    },
+    "programme": {
+        "select": "Select a program",
+        "cinema": "Cinema",
+        "gestion_commerce": "Business Management",
+        "gestion_operations_chaine_logistique": "Operations and Supply Chain Management",
+        "journalisme_multimedia": "Multimedia Journalism",
+        "langues_trilinguisme_cultures": "Languages – Trilingualism and Cultures",
+        "photographie_design_graphique": "Photography and Graphic Design",
+        "sciences_nature": "Natural Sciences",
+        "sciences_humaines_administration_economie": "Human Sciences – Administration and Economics Profile",
+        "sciences_humaines_individu_relations_humaines": "Human Sciences – Individual and Human Relations Profile",
+        "sciences_humaines_monde_en_action": "Human Sciences – World in Action Profile",
+        "soins_infirmiers": "Nursing",
+        "soins_infirmiers_auxiliaires": "Nursing for Assistants",
+        "techniques_education_enfance": "Early Childhood Education Techniques",
+        "techniques_bureautique": "Office Automation Techniques",
+        "techniques_comptabilite_gestion": "Accounting and Management Techniques",
+        "techniques_informatique": "Computer Science",
+        "techniques_travail_social": "Social Work Techniques",
+        "technologie_architecture": "Architecture Technology",
+        "technologie_estimation_evaluation_batiment": "Building Estimation and Evaluation Technology",
+        "technologie_genie_civil": "Civil Engineering Technology",
+        "technologie_genie_electrique": "Electrical Engineering Technology: Automation and Control",
+        "technologie_genie_physique": "Physical Engineering Technology",
+        "tremplin_dec": "DEC Transition Program"
+    },
+    "header_main_page": {
+        "signup": "Sign up",
+        "disconnect": "Disconnect",
+        "notifications": "Notifications"
+    },
+    "home_page": {
+        "carriere": "Your career",
+        "commence": "begins ",
+        "ici": "here"
+    },
+    "connexion_page": {
+        "connexion": "Log in",
+        "email": "Email",
+        "password": "Password",
+        "continue": "Continue",
+        "error": {
+            "email": "Email is required",
+            "password": "Password is required",
+            "not_approved": "Your account is not approved by Admin yet. Please wait for approval.",
+            "invalid_email": "Invalid email",
+            "invalid_password": "Invalid password",
+            "unknown_error": "Unknown error occurred. Please try again"
+        }
+    },
+    "creer_utilisateur_page": {
+        "creer_compte": "Create an account",
+        "carriere": "Starting your career has never been easier",
+        "profile": "Your profile",
+        "profile_2": "Crucial information for your profile",
+        "school": "School information",
+        "school_2": "Information related to your academic progress",
+        "security": "Security",
+        "pasword": "Create your password",
+        "finalization": "Finalization",
+        "dashboard": "Access the dashboard",
+        "success_title": "Account successfully created",
+        "success_text": "Please wait for administrator approval to access your account",
+        "error": {
+            "error_title": "Error"
+        }
+    },
+    "selection_role_page": {
+        "who_are_you": "Who are you?",
+        "description": "Select the user type that suits you",
+        "student": "Student",
+        "teacher": "Teacher",
+        "employer": "Employer",
+        "continue": "Continue"
+    },
+    "information_base_page": {
+        "information": "Basic information",
+        "description": "Enter your First Name, Last Name, and the Email address you will use to log in to the platform from now on.",
+        "first_name": "First name",
+        "last_name": "Last name",
+        "email": "Email",
+        "continue": "Continue",
+        "error": {
+            "first_name_short": "Your first name must contain at least 2 characters.",
+            "first_name_letters_only": "Your first name must contain only letters and spaces.",
+            "last_name_short": "Your last name must contain at least 2 characters.",
+            "last_name_letters_only": "Your last name must contain only letters and spaces.",
+            "email": "Email address must be valid: example@gmail.com",
+            "email_taken": "Email address is already taken"
+        }
+    },
+    "information_etudiant_page": {
+        "information": "School Information",
+        "description": "Enter your matriculation number defined by the establishment as well as the study program attended.",
+        "matricule": "Student ID",
+        "program": "Program",
+        "continue": "Continue",
+        "error": {
+            "matricule": "Student ID must have 7 digits",
+            "department": "No Department is selected",
+            "matricule_taken": "Student ID is already taken"
+        }
+    },
+    "mot_de_passe_page": {
+        "title": "Create your password",
+        "description": "A complex password is less likely to be guessed by someone else",
+        "description_2": "Your password must contain at least 8 characters, including one uppercase letter, one lowercase letter, one number and one symbol",
+        "password": "Password",
+        "confirm_password": "Confirm password",
+        "submit": "Submit",
+        "error": {
+            "password_wrong": "Password must contain at least one uppercase letter, one number and one special character",
+            "password_doesnt_match": "Passwords do not match."
+        }
+    },
+    "information_employeur_page": {
+        "title": "Employer information",
+        "description": "Enter the required information about the company offering the internships",
+        "company_name": "Company name",
+        "continue": "Continue",
+        "error": {
+            "company_name_invalid": "The company name must contain only letters and spaces",
+            "company_name_lenght": "Company name must be between 3 and 100 characters"
+        }
+    },
+    "information_professeur_page": {
+        "title": "Information about your employment",
+        "description": "Enter your employee number defined by the establishment as well as the department of belonging",
+        "employee_number": "Employee number",
+        "department": "Department",
+        "select_department": "Select a department",
+        "continue": "Continue",
+        "error": {
+            "error_title": "Error",
+            "employee_number": "Employee number must have 7 digits",
+            "department": "No Department is selected",
+            "employee_number_taken": "This ID is already used by another user"
+        }
+    },
+    "creer_offre_stage_page": {
+        "title": "Create an internship offer",
+        "nom": "Job Title",
+        "poste": "Position",
+        "description": "Description",
+        "compagnie": "Company Name",
+        "address": "Address",
+        "taux_horaire": "Hourly rate",
+        "nombre_heures_semaine": "Number of hours per week",
+        "nombre_postes": "Number of positions to fill",
+        "type_emploi": "Type of employment",
+        "programme_etudes": "Study program",
+        "modalite_travail": "Work modality",
+        "date_limite_candidate": "Application deadline",
+        "date_debut": "Start date",
+        "date_fin": "End date",
+        "creer_offre_stage": "Create the internship offer",
+        "retour": "Return to home",
+        "employeurs": "Employees",
+        "employeur_select": "Select an employer",
+        "types_emploi": {
+            "select": "Select a type of employment",
+            "temps_partiel": "Part-time",
+            "temps_plein": "Full-time"
+        },
+        "modalites_travail": {
+            "select": "Select a work modality",
+            "virtuel": "Remote",
+            "presentiel": "On-site",
+            "hybride": "Hybrid"
+        },
+        "errors": {
+            "nom": "The name must be between 3 and 100 characters",
+            "poste": "The position must be between 3 and 100 characters",
+            "description": "The description must be between 10 and 500 characters",
+            "compagnie": "The company name must be between 3 and 100 characters",
+            "address": "The address must be between 3 and 100 characters",
+            "taux_horaire": "The hourly rate must be a positive number",
+            "nombre_heures_semaine_inferieur": "The number of hours per week must be greater than 1",
+            "nombre_heures_semaine_superieur": "The number of hours per week must be less than 40",
+            "nombre_postes": "The number of positions must be a positive number",
+            "programme_etudes_select": "The study program must be selected",
+            "modalite_travail_select": "The work modality must be selected",
+            "type_emploi_select": "The type of employment must be selected"
+        },
+        "steps": {
+            "1": {
+                "title": "Basic Information",
+                "description": "Please fill in the fields below by providing the official name of your company as well as its complete address, including street number, street name, city, postal code, and country."
+            },
+            "2": {
+                "title": "Job Information",
+                "description": "Enter the required information to help students find you more easily."
+            },
+            "3": {
+                "title": "Description",
+                "description": "Enter a detailed job description, including a description of the employee's role, desired qualities, and required experience."
+            },
+            "4": {
+                "title": "Particularities",
+                "description": "By choosing from the options below, describe the different modes of your job."
+            },
+            "5": {
+                "title": "Dates",
+                "description": "Enter the start and end dates of the internship, as well as the application deadline."
+            },
+            "6": {
+                "success": "Success",
+                "success_text": "Your internship offer has been submitted. Please allow some time for the administrator to approve your offer.",
+                "go_to_dashboard": "Return to the main page"
+            }
+        }
+    },
+    "modal": {
+        "validate": "Validate",
+        "reject": "Reject",
+        "reject_reason": "Reason for rejection",
+        "reject_reason_placeholder": "Enter the reason for rejection",
+        "send": "Send",
+        "close": "Close",
+        "generate": "Generate",
+        "generate_pdf": "Generation of the internship Contract",
+        "view_contrat": "The contract",
+        "loading_pdf": "Loading the contract"
+    },
+    "dashboard_home_page": {
+        "home": "Home",
+        "offer": "Internship Offers",
+        "explore": "Explore",
+        "manage_offers": "Manage Internship Offers waiting for approval",
+        "manage_cv": "Manage Curiculums Vitae waiting for approval",
+        "no_offers": "No offers to display at the moment",
+        "my_offers": "My Internship Offers",
+        "add_offer": "New offer",
+        "offers": "Internship Offers",
+        "hello": "Hello",
+        "of": "of",
+        "portfolio": "My Portfolio",
+        "add_cv": "Add a CV",
+        "manage": "Manage",
+        "no_cv": "No Curiculums Vitae to approve at the moment",
+        "user_info": "User Information",
+        "full_name": "Full Name",
+        "email": "Email",
+        "studentID": "Student ID",
+        "employeID": "Employee ID",
+        "role": "Role",
+        "user_management": "User Management",
+        "not_approved_users": "Not approved users",
+        "limited_places": "Limited places",
+        "modalFermer": "Close",
+        "my_applications": "List of Applications that you have submitted",
+        "no_applications": "You have not applied to any Offers yet",
+        "at": "at",
+        "application": "Applications",
+        "view_offer": "View Offer",
+        "initial_application": "Initial Application",
+        "waiting_employer_response": "Waiting for Employer's Response",
+        "approve": "Approved",
+        "rejected_with_comment": "Rejected",
+        "interview": "Interview",
+        "waiting_interview_acceptance": "Waiting for Interview Acceptance",
+        "interview_date": "Interview Date",
+        "accept": "Accept",
+        "refuse": "Refuse",
+        "interview_accepted_by_student": "Interview Accepted by Student",
+        "proposed_interview_date": "Proposed Interview Date",
+        "interview_rejected_by_student": "Interview Rejected by Student",
+        "interview_not_planned_for_rejected_application": "Interview Not Planned for Rejected Application",
+        "waiting_initial_application": "Waiting for Initial Application",
+        "contract": "Contract",
+        "contract_not_proposed_for_rejected_interview": "Interview Cannot Be Planned for Rejected Application",
+        "contract_signed_by_employer": "Contract Signed by Employer",
+        "sign": "Sign",
+        "no_sign": "Do not Sign",
+        "contract_signed_by_student": "Contract Signed by Student",
+        "waiting_manager_signature": "Waiting for Manager's Signature",
+        "contract_rejected_by_student": "Contract Rejected by Student",
+        "contract_signed_by_all": "Contract Signed by All",
+        "application_rejected_after_interview": "Application Rejected After Interview",
+        "waiting_interview_results": "Waiting for Interview Results",
+        "see": "Look Up",
+        "see_all": "View all",
+        "are_you_sure": "Are you sure?",
+        "proposed_interview_date_employeur": "The date of your interview proposed by the Employer is",
+        "acceptance_irreversible": "Acceptance is irreversible and commits you to participate in the interview on this date.",
+        "yes_accept": "Yes, accept!",
+        "cancel": "Cancel",
+        "accepted": "Accepted!",
+        "interview_accepted": "The interview has been accepted.",
+        "error": "Error!",
+        "interview_refusal_failed_acceptation": "Failed to accept the interview.",
+        "interview_refusal_error_acceptation": "An error occurred while accepting the interview.",
+        "refuse_interview_warning": "You are about to refuse the interview. This action is irreversible. Your application for this Internship Offer will be rejected.",
+        "yes_refuse": "Yes, refuse!",
+        "refused": "Refused!",
+        "interview_refused": "The interview has been refused.",
+        "interview_refusal_failed": "Failed to refuse the interview.",
+        "interview_refusal_error": "An error occurred while refusing the interview.",
+        "sign_contract_warning": "You will be invited to sign the contract. This action is irreversible. Your application for this Internship Offer will be approved.",
+        "yes_sign_contract": "Yes, sign the contract!",
+        "review_decision": "Review my decision",
+        "contract_signed_success": "The contract has been successfully signed.",
+        "contract_signing_failed": "Failed to sign the contract.",
+        "contract_signing_error": "An error occurred while signing the contract.",
+        "refuse_contract_warning": "You are about to refuse to sign the contract. This action is irreversible. Your application for this Internship Offer will be rejected.",
+        "yes_refuse_contract": "Yes, refuse to sign!",
+        "contract_refused": "The contract signing has been refused.",
+        "contract_refusal_failed": "Failed to refuse the contract signing.",
+        "contract_refusal_error": "An error occurred while refusing the contract.",
+        "waiting_contract_generation": "Waiting for the contract to be generated by the Manager",
+        "delete_stage_confirmation": "Are you sure you want to delete this internship offer?",
+        "delete_stage_confirmation_text": "You will not be able to recover it once it is deleted.",
+        "delete_stage_confirm_button_text": "Yes, delete it",
+        "delete_stage_cancel_button_text": "No, it was a mistake",
+        "no_comment_reject_cv_text": "Please enter a reason for rejection",
+        "cv_rejected_success": "The CV has been rejected",
+        "cv_accept_title": "You are about to accept the CV",
+        "cv_accept_text": "Have you reviewed the CV and are you sure you want to accept it?",
+        "cv_accept_confirm_button": "Yes, accept",
+        "cv_accept_cancel_button": "No, cancel",
+        "cv_accepted_success": "CV has been successfully accepted",
+        "cv_accepted_error": "Error while accepting the CV",
+        "offer_rejected_success": "The internship offer has been rejected",
+        "no_comment_reject_offer_text": "Please enter a reason for rejection",
+        "manage_evaluations": "Internship evaluations",
+        "no_evaluation": "No evaluations to display at the moment",
+        "manage_evaluations_milieu_stage": "Manage Milieu Stage Evaluations",
+        "find_and_apply": "Find and apply"
+    },
+    "pdf_view_page": {
+        "error": "An unknown error occurred"
+    },
+    "view_page": {
+        "home": "Home",
+        "hello": "Hello"
+    },
+    "upload_page": {
+        "drag_drop": "Drag and drop your CV here",
+        "or": "OR",
+        "browse": "Browse",
+        "accepted_formats": "Accepted formats: PDF",
+        "upload": "Upload",
+        "upload_cv": "Upload your CV"
+    },
+    "manage_cv_page": {
+        "my_cvs": "My Curiculums Vitae"
+    },
+    "manage_users_page": {
+        "not_approved_users": "Not approved users",
+        "no_users_to_approve": "No users to approve",
+        "when_created": "When a user is created, they will appear here",
+        "approve": "Approve",
+        "approved": "Approved",
+        "delete": "Delete",
+        "user_details": "User details",
+        "details": "Details",
+        "in_probation": "Pending",
+        "role": "Role",
+        "department": "Department",
+        "matricule": "Student/Employee ID",
+        "company": "Company",
+        "actions": "Actions"
+    },
+    "manage_cv": {
+        "upload_error": "Error uploading CV",
+        "status": {
+            "pending": "Waiting for approval",
+            "approved": "Approved",
+            "rejected": "Rejected"
+        },
+        "buttons": {
+            "add": "Add",
+            "accept": "Accept",
+            "reject": "Reject",
+            "download": "Download",
+            "delete": "Delete"
+        },
+        "messages": {
+            "no_cvs": "No CVs in your folder",
+            "reject_reason": "Reason: "
+        },
+        "titles": {
+            "cvs": "My Curiculums Vitae",
+            "preview": "Preview"
+        }
+    },
+    "upload_cv": {
+        "title": "Upload a CV",
+        "drag_drop": "Drag your CV here",
+        "or": "OR",
+        "select_button": "Select",
+        "accepted_formats": "Accepted file format: PDF",
+        "upload_button": "Upload",
+        "error_file_required": "Please select a file before submitting.",
+        "upload_error": "An error occurred during the upload.",
+        "error_file_size_exceeded": "The file size exceeds the allowed limit of {{maxSize}} KB."
+    },
+    "manage_offre_stage": {
+        "titles": {
+            "offre_stages": "Internship Offers",
+            "details": "Details"
+        },
+        "status": {
+            "pending": "Pending",
+            "approved": "Approved",
+            "rejected": "Rejected"
+        },
+        "labels": {
+            "company": "Company",
+            "position": "Position",
+            "department": "Department",
+            "hourly_rate": "Hourly Rate",
+            "type": "Employment Type",
+            "address": "Address",
+            "work_mode": "Work Mode",
+            "start_date": "Start Date",
+            "end_date": "End Date",
+            "hours_per_week": "Hours Per Week",
+            "number_of_positions": "Number of Positions",
+            "application_deadline": "Application Deadline"
+        },
+        "buttons": {
+            "add": "Add",
+            "modify": "Modify",
+            "delete": "Delete"
+        },
+        "messages": {
+            "no_offre_stages_contracts": "No Contracts to be generated at the moment"
+        }
+    },
+    "modifier_offre_stage_page": {
+        "title": "Modify Internship Offer",
+        "nom": "Name",
+        "poste": "Position",
+        "description": "Description",
+        "compagnie": "Company",
+        "adresse": "Address",
+        "taux_horaire": "Hourly Rate",
+        "nombre_heures_semaine": "Number of Hours per Week",
+        "nombre_postes": "Number of Positions",
+        "type_emploi": "Type of Employment",
+        "departement": "Study Program",
+        "modalite_travail": "Work Modality",
+        "date_limite_candidate": "Application Deadline",
+        "date_debut": "Start Date",
+        "date_fin": "End Date",
+        "modify_offre_stage": "Modify Internship Offer",
+        "retour": "Return to Home",
+        "types_emploi": {
+            "select": "Select a type of employment",
+            "temps_partiel": "Part-time",
+            "temps_plein": "Full-time"
+        },
+        "modalites_travail": {
+            "select": "Select a work modality",
+            "teletravail": "Remote work",
+            "presentiel": "On-site",
+            "hybride": "Hybrid"
+        },
+        "errors": {
+            "nom": "The name must be between 3 and 100 characters",
+            "poste": "The position must be between 3 and 100 characters",
+            "description": "The description must be between 10 and 500 characters",
+            "compagnie": "The company name must be between 3 and 100 characters",
+            "address": "The address must be between 3 and 100 characters",
+            "taux_horaire": "The hourly rate must be a positive number",
+            "nombre_heures_semaine_inferieur": "The number of hours per week must be greater than 1",
+            "nombre_heures_semaine_superieur": "The number of hours per week must be less than 40",
+            "nombre_postes": "The number of positions must be a positive number",
+            "programme_etudes_select": "The study program must be selected",
+            "modalite_travail_select": "The work modality must be selected",
+            "type_emploi_select": "The type of employment must be selected"
+        },
+        "disclaimer": "Any modification of the information in the internship offer is subject to re-examination by the manager"
+    },
+    "offer_status": {
+        "approved": "Approved",
+        "refused": "Refused",
+        "pending": "Pending"
+    },
+    "discover_offers_page": {
+        "title": "Discover Internship Offers",
+        "results": "Results",
+        "apply": "Apply",
+        "particularities": "Particularities",
+        "salary": "Salary",
+        "internship_type": "Internship Type",
+        "approved": "Approved",
+        "refused": "Refused",
+        "pending": "Pending",
+        "refusal_reason": "Refusal Reason : ",
+        "hours_one": "{{count}} Hour",
+        "hours_other": "{{count}} Hours",
+        "types_emploi": {
+            "temps_partiel": "Part-time",
+            "temps_plein": "Full-time"
+        },
+        "work_type": {
+            "title": "Work Modality",
+            "virtuel": "Remote",
+            "presentiel": "On-site",
+            "hybride": "Hybrid"
+        },
+        "internship_duration": "Internship Duration",
+        "location": "Location",
+        "description": "Description",
+        "employer": "Employer",
+        "contact": "Contact",
+        "month_one": "{{count}} Month",
+        "month_other": "{{count}} Months",
+        "no_offers": "No offers to display at the moment",
+        "future_offers": "They will appear here when they are available",
+        "limited_places": "Limited places",
+        "filters": {
+            "title": "Filters",
+            "all": "All",
+            "internship_type": {
+                "title": "Type of Internship",
+                "temps_partiel": "Part-time",
+                "temps_plein": "Full-time"
+            },
+            "emplacement": {
+                "title": "Location",
+                "presentiel": "On-site",
+                "virtuel": "Remote",
+                "hybride": "Hybrid"
+            },
+            "taux_horaire_minimum": {
+                "title": "Minimum Hourly Rate"
+            },
+            "sessions": {
+                "title": "Session",
+                "hiver": "Winter",
+                "automne": "Fall"
+            }
+        },
+        "reset": "Reset",
+        "search": "Search",
+        "actions": "Actions",
+        "applied": "Applied"
+    },
+    "apply_offre_window": {
+        "send_my_candidature": "Send my application",
+        "cv_to_send": "Curriculum Vitae to send",
+        "note": "Note: Only approved CVs will appear in the list.",
+        "no_cv": "No approved CV in your folder. You will not be able to apply without an approved CV.",
+        "cancel": "Cancel",
+        "send": "Apply",
+        "see_cv": "See my CVs"
+    },
+    "candidature_progress": {
+        "send": "Send",
+        "selection": "Selection",
+        "interview": "Interview",
+        "contract": "Contract",
+        "position": "Position"
+    },
+    "view_candidatures_page": {
+        "interview_date": "Select desired interview date",
+        "sweetalert": {
+            "success": "Success",
+            "approved": "The interview date has been proposed",
+            "refused": "Candidature has been refused",
+            "error": "Error",
+            "error_commentaire_refus": "Please enter a reason for refusal",
+            "error_date_entrevue": "Please select an interview date"
+        },
+        "categories": {
+            "all": "All Applications",
+            "nouvelles_candidatures": "New Applications",
+            "en_entrevue": "Applications in interview",
+            "en_signature": "Applications in Contract Signature",
+            "accepte_total": "Accepted Position",
+            "rejete_total": "Rejected Applications"
+        },
+        "title": "Application Management",
+        "no_comment": "No Comment",
+        "employeur_comment": "Comment from the employer",
+        "new_applications": "New Applications",
+        "in_interview": "In Interview",
+        "in_contract_signature": "In Contract Signature",
+        "accepted_position": "Accepted Position",
+        "rejected_applications": "Rejected Applications",
+        "your_applications": "Your Applicants",
+        "action_needed": "Action Needed",
+        "no_results": "No Results",
+        "no_results_description": "Future applications that meet this criteria will appear here",
+        "application": "Application",
+        "loading": "Loading",
+        "view_offer": "View Offer",
+        "applicant_profile": "Applicant Profile",
+        "initial_application": "Initial Application",
+        "approve": "Approve",
+        "refuse": "Refuse",
+        "approved": "Approved",
+        "refused_with_comment": "Refused with comment: {{comment}}",
+        "interview": "Interview",
+        "waiting_for_student_confirmation": "Waiting for student confirmation",
+        "proposed_interview_date": "Proposed interview date: {{date}}",
+        "interview_accepted_by_student": "Interview accepted by student",
+        "interview_not_planned_for_refused_application": "Interview cannot be scheduled for a refused application",
+        "interview_refused_by_student": "Interview refused by student",
+        "waiting_for_initial_application": "Waiting for initial application",
+        "contract": "Contract",
+        "contract_not_signed_for_refused_application": "Contract cannot be signed for a refused application",
+        "contract_signed_by_student": "Contract signed by student",
+        "waiting_for_employer_signature": "Waiting for Employer's signature",
+        "waiting_for_student_signature": "Waiting for Student's signature",
+        "waiting_for_contract_generation": "Waiting for the contract to be generated by the Manager",
+        "contract_not_signed_after_interview_refusal": "Contract cannot be signed. Application was refused after interview",
+        "contract_refused_by_student": "Contract signing was refused by student",
+        "contract_refused_by_employer": "Contract signing was refused by employer",
+        "contract_signed_by_all": "Everyone signed the contract. The application was accepted",
+        "contract_not_signed_after_interview_refusal_by_student": "Contract cannot be signed. Interview was refused by student",
+        "contract_refused_by_all": "Not Employer nor Student signed the contract. The application was refused",
+        "contract_cannot_be_signed_entrevue_rejected_by_student": "Contract cannot be signed. You refused the interview",
+        "waiting_for_interview_results": "Waiting for interview results",
+        "confirm_accept_title": "Are you sure?",
+        "confirm_accept_text": "You are about to accept the application due to the successful interview. Do you want to continue?",
+        "confirm_accept_confirm_button": "Yes, I want this intern!",
+        "confirm_accept_cancel_button": "Review my decision",
+        "accepted_title": "Accepted!",
+        "accepted_text": "The interview was successfully passed. The application has been accepted.",
+        "error_title": "Error!",
+        "error_update_text": "Failed to update the interview status.",
+        "error_occurred_text": "An error occurred while updating the status.",
+        "confirm_reject_title": "Are you sure?",
+        "confirm_reject_text": "You are about to reject the application due to the failed interview. Do you want to continue?",
+        "confirm_reject_confirm_button": "Yes, reject the application!",
+        "confirm_reject_cancel_button": "Review my decision",
+        "rejected_title": "Rejected!",
+        "rejected_text": "The application has been rejected due to the failed interview.",
+        "error_reject_text": "Failed to reject the application.",
+        "accept": "Accept",
+        "you_passed_entrevue": "You passed the interview. Congratulations!",
+        "student_passed_entrevue": "Student passed the interview",
+        "waiting_for_your_signature": "Waiting for your signature",
+        "employeur_candidature_initiale_info": "The student has submitted an application for your position. Examine their file, and click on Accept to continue the process, or Reject if you think they are not eligible for this position.",
+        "etudiant_entrevue_initiale_info": "The employer has scheduled an interview on the date indicated. You must accept or refuse this interview. Note that you will no longer be able to continue with your application if you refuse the interview.",
+        "employeur_entrevue_info": "After proceeding to the interview, please accept or reject the applicant's application to proceed to the next step.",
+        "titre_poste_obtenu": "Position obtained",
+        "poste_obtenu": "Congratulations! You got this position and are now part of the team.",
+        "categorie_selection": "Click here to access new applications that need your action or any other category that is relevant"
+    },
+    "manage_contract_page": {
+        "title_generate_contract": "Contracts to be generated",
+        "title_see_contract": "List of Contracts",
+        "list_contrats": "Liste des contrats",
+        "one_refused_contract_text": "One of the participants refused to sign the contract",
+        "waiting_sign_from_parties": "Waiting for the signature of all parties",
+        "contract_signed": "All signs have been received"
+    },
+    "sign_contract_swal": {
+        "confirm_sign_title": "Are you sure ?",
+        "confirm_sign_text": "You're signing the contract, will you still continue ?",
+        "confirm_sign_confirm_button": "Yes, sign the contract !",
+        "confirm_sign_cancel_button": "Non, go back",
+        "success_title": "You accepted the terms of the contracts!",
+        "confirm_refuse_title": "Are you sure ?",
+        "confirm_refuse_text": "You're not signing the contract, will you still continue ?",
+        "confirm_refuse_confirm_button": "Yes, refuse the contract !",
+        "confirm_refuse_cancel_button": "No, go back",
+        "success_refused_title": "You have refused to sign the contract!",
+        "manage_contract_en_attente": {
+            "title": "Contracts in waiting for signature"
+        }
+    },
+    "evaluation_employeur": {
+        "stagiaire_a_evaluer": "Intern to evaluate",
+        "no_stagiaire_a_evaluer": "No intern to evaluate",
+        "evaluation_non_disponible": "evaluation not available before :",
+        "evaluation_disponible": "evaluation available",
+        "evaluer": "Evaluate",
+        "step": {
+            "productivite": {
+                "title": "Step 1: Productivity",
+                "description": "Ability to optimize work efficiency",
+                "fields": {
+                    "field1": "Plan and organize work effectively",
+                    "field2": "Quickly understand work-related instructions",
+                    "field3": "Maintain a consistent work pace",
+                    "field4": "Set priorities",
+                    "field5": "Meet deadlines"
+                }
+            },
+            "qualiteTravail": {
+                "title": "Step 2: WORK QUALITY",
+                "description": "Ability to complete assigned tasks by setting personal quality standards",
+                "fields": {
+                    "field1": "Respect the tasks assigned to them",
+                    "field2": "Pay attention to detail when completing tasks",
+                    "field3": "Check work to ensure nothing is forgotten",
+                    "field4": "Seek opportunities for improvement",
+                    "field5": "Perform a good analysis of encountered problems"
+                }
+            },
+            "relationsInterpersonnelles": {
+                "title": "Step 3: RELATIONSHIP QUALITIES",
+                "description": "Ability to establish harmonious relationships in the workplace",
+                "fields": {
+                    "field1": "Easily establish contact with people",
+                    "field2": "Actively contribute to teamwork",
+                    "field3": "Easily adapt to the company culture",
+                    "field4": "Accept constructive criticism",
+                    "field5": "Be respectful towards people",
+                    "field6": "Demonstrate active listening by trying to understand others' viewpoints"
+                }
+            },
+            "habiletesPersonnelles": {
+                "title": "Step 4: PERSONAL SKILLS",
+                "description": "Ability to demonstrate mature and responsible attitudes or behaviors",
+                "fields": {
+                    "field1": "Demonstrate interest and motivation at work",
+                    "field2": "Clearly express ideas",
+                    "field3": "Show initiative",
+                    "field4": "Work safely",
+                    "field5": "Demonstrate good responsibility requiring minimal supervision",
+                    "field6": "Be punctual and consistent at work"
+                }
+            },
+            "total_agree": "Totally agree",
+            "mostly_agree": "Mostly agree",
+            "mostly_disagree": "Mostly disagree",
+            "total_disagree": "Totally disagree",
+            "select": "Select",
+            "comment": "Comment",
+            "appreciationGlobale": {
+                "title": "Step 5: Overall Appreciation",
+                "description": "The demonstrated skills:",
+                "options": {
+                    "option1": "Greatly exceed expectations",
+                    "option2": "Exceed expectations",
+                    "option3": "Fully meet expectations",
+                    "option4": "Partially meet expectations",
+                    "option5": "Do not meet expectations"
+                },
+                "comment_label": "Specify your appreciation:"
+            },
+            "evaluationFinale": {
+                "title": "Step 6: Final Evaluation",
+                "discussion_label": "This evaluation was discussed with the intern:",
+                "hours_label": "Actual number of supervision hours:",
+                "stage_label": "The company would like to host the student again:",
+                "stage_options": {
+                    "yes": "Yes",
+                    "no": "No",
+                    "maybe": "Maybe"
+                },
+                "signature_label": "Signature:"
+            },
+            "submit": "Submit",
+            "next": "Next",
+            "previous": "Previous",
+            "back_to_dashboard": "Back to Dashboard"
+        },
+        "evaluation_steps": {
+            "title": "Evaluation",
+            "step1": {
+                "title": "Step 1: Productivity",
+                "description": "Ability to optimize work performance"
+            },
+            "step2": {
+                "title": "Step 2: Work Quality",
+                "description": "Ability to complete tasks under responsibility by setting personal quality standards"
+            },
+            "step3": {
+                "title": "Step 3: Relationship Quality",
+                "description": "Ability to establish harmonious interrelations in the work environment"
+            },
+            "step4": {
+                "title": "Step 4: Personal Skills",
+                "description": "Ability to demonstrate mature and responsible attitudes or behaviors"
+            },
+            "step5": {
+                "title": "Step 5: Overall Appreciation"
+            },
+            "step6": {
+                "title": "Step 6: Final Evaluation"
+            },
+            "no_step": "No step selected"
+        }
+    },
+    "evaluation_milieu_stage": {
+        "evaluation_milieu_stage": "Evaluation(s) of the Internship Environment",
+        "milieu_stage_a_evaluer": "Internship Environment to evaluate",
+        "no_evaluation": "No Internship Environment evaluation to display at the moment",
+        "no_milieu_stage_a_evaluer": "No Internship Environment to evaluate",
+        "evaluation_non_disponible": "Evaluation not available before:",
+        "evaluation_disponible": "Evaluation available",
+        "evaluer": "Evaluate",
+        "required": "Required field",
+        "step": {
+            "general": {
+                "title": "General Information",
+                "stage_type": "First or second internship",
+                "hours_per_week_first_month": "Hours per week (First Month)",
+                "hours_per_week_second_month": "Hours per week (Second Month)",
+                "hours_per_week_third_month": "Hours per week (Third Month)",
+                "hourly_rate": "Hourly rate",
+                "stage1": "Internship 1",
+                "stage2": "Internship 2"
+            },
+            "section2": {
+                "title": "Section 2: Evaluation Criteria",
+                "description": "Evaluate the following criteria:",
+                "fields": {
+                    "field1": "The tasks assigned to the intern are consistent with those announced in the internship agreement",
+                    "field2": "Welcome measures facilitate the integration of the new intern",
+                    "field3": "The actual time spent supervising the intern is sufficient",
+                    "field4": "The work environment complies with health and safety standards",
+                    "field5": "The work climate is pleasant"
+                }
+            },
+            "section3": {
+                "title": "Section 3: Evaluation Criteria",
+                "description": "Evaluate the following criteria:",
+                "fields": {
+                    "field1": "The internship environment is accessible by public transport",
+                    "field2": "The salary offered is attractive for the intern",
+                    "field3": "Communication with the internship supervisor facilitates the internship",
+                    "field4": "The equipment provided is adequate for the tasks assigned",
+                    "field5": "The workload is acceptable"
+                }
+            },
+            "section4": {
+                "title": "Section 4: General Observations",
+                "field1": "Internship environment to prioritize for:",
+                "field2": "Supervisor's signature",
+                "field3": "Number of students that can be accommodated",
+                "field4": "Same intern for the next internship",
+                "field5": "Variable work schedule",
+                "field6": "Start of shift 1",
+                "field7": "Start of shift 2",
+                "field8": "Start of shift 3",
+                "yes": "Yes",
+                "no": "No"
+            },
+            "total_agree": "Totally agree",
+            "mostly_agree": "Mostly agree",
+            "mostly_disagree": "Mostly disagree",
+            "total_disagree": "Totally disagree",
+            "select": "Select",
+            "comment": "Comment",
+            "previous": "Previous",
+            "next": "Next",
+            "submit": "Submit",
+            "back_to_dashboard": "Back to Dashboard",
+            "capaciteEtudiant": {
+                "UN_STAGIAIRE": "One intern",
+                "DEUX_STAGIAIRES": "Two interns",
+                "TROIS_STAGIAIRES": "Three interns",
+                "PLUS_DE_TROIS": "More than three interns"
+            }
+        },
+        "evaluation_steps": {
+            "title": "Evaluation of the Internship Environment",
+            "step1": {
+                "title": "Step 1: General Information"
+            },
+            "step2": {
+                "title": "Step 2: Evaluation Criteria"
+            },
+            "step3": {
+                "title": "Step 3: Evaluation Criteria"
+            },
+            "step4": {
+                "title": "Step 4: General Observations"
+            }
+        }
+    }
+}

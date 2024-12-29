@@ -1,0 +1,475 @@
+{
+       "total_project_impact": "16778",
+       "users": [
+              {
+                     "name": "Vazgen",
+                     "sprints": [
+                            {
+                                   "sprint_1": {
+                                          "start_date": "2024-09-11",
+                                          "end_date": "2024-09-25",
+                                          "java_added": 1428,
+                                          "java_deleted": 368,
+                                          "js_added": 189,
+                                          "js_deleted": 27,
+                                          "json_added": 0,
+                                          "json_deleted": 0,
+                                          "total_added": 1617,
+                                          "total_deleted": 395,
+                                          "total_impact": 1222
+                                   },
+                                   "sprint_2": {
+                                          "start_date": "2024-09-26",
+                                          "end_date": "2024-10-09",
+                                          "java_added": 510,
+                                          "java_deleted": 69,
+                                          "js_added": 877,
+                                          "js_deleted": 643,
+                                          "json_added": 296,
+                                          "json_deleted": 8,
+                                          "total_added": 1683,
+                                          "total_deleted": 720,
+                                          "total_impact": 963
+                                   },
+                                   "sprint_3": {
+                                          "start_date": "2024-10-10",
+                                          "end_date": "2024-10-23",
+                                          "java_added": 3548,
+                                          "java_deleted": 2722,
+                                          "js_added": 847,
+                                          "js_deleted": 760,
+                                          "json_added": 366,
+                                          "json_deleted": 308,
+                                          "total_added": 4761,
+                                          "total_deleted": 3790,
+                                          "total_impact": 971
+                                   },
+                                   "sprint_4": {
+                                          "start_date": "2024-10-24",
+                                          "end_date": "2024-11-06",
+                                          "java_added": 3934,
+                                          "java_deleted": 3065,
+                                          "js_added": 4415,
+                                          "js_deleted": 4307,
+                                          "json_added": 900,
+                                          "json_deleted": 754,
+                                          "total_added": 9249,
+                                          "total_deleted": 8126,
+                                          "total_impact": 1123
+                                   },
+                                   "sprint_5": {
+                                          "start_date": "2024-11-07",
+                                          "end_date": "2024-11-20",
+                                          "java_added": 301,
+                                          "java_deleted": 118,
+                                          "js_added": 2276,
+                                          "js_deleted": 1128,
+                                          "json_added": 112,
+                                          "json_deleted": 66,
+                                          "total_added": 2689,
+                                          "total_deleted": 1312,
+                                          "total_impact": 1377
+                                   },
+                                   "sprint_6": {
+                                          "start_date": "2024-11-21",
+                                          "end_date": "2024-12-04",
+                                          "java_added": 10,
+                                          "java_deleted": 6,
+                                          "js_added": 1876,
+                                          "js_deleted": 1944,
+                                          "json_added": 32,
+                                          "json_deleted": 14,
+                                          "total_added": 1918,
+                                          "total_deleted": 1964,
+                                          "total_impact": -46
+                                   }
+                            },
+                            {
+                                   "total": {
+                                          "java_lines": 3383,
+                                          "js_lines": 1671,
+                                          "json_lines": 556,
+                                          "total_impact": 5610
+                                   }
+                            }
+                     ],
+                     "percentage": 33.44
+              },
+              {
+                     "name": "Alex",
+                     "sprints": [
+                            {
+                                   "sprint_1": {
+                                          "start_date": "2024-09-11",
+                                          "end_date": "2024-09-25",
+                                          "java_added": 1,
+                                          "java_deleted": 3,
+                                          "js_added": 638,
+                                          "js_deleted": 269,
+                                          "json_added": 0,
+                                          "json_deleted": 0,
+                                          "total_added": 639,
+                                          "total_deleted": 272,
+                                          "total_impact": 367
+                                   },
+                                   "sprint_2": {
+                                          "start_date": "2024-09-26",
+                                          "end_date": "2024-10-09",
+                                          "java_added": 619,
+                                          "java_deleted": 219,
+                                          "js_added": 388,
+                                          "js_deleted": 140,
+                                          "json_added": 0,
+                                          "json_deleted": 0,
+                                          "total_added": 1007,
+                                          "total_deleted": 359,
+                                          "total_impact": 648
+                                   },
+                                   "sprint_3": {
+                                          "start_date": "2024-10-10",
+                                          "end_date": "2024-10-23",
+                                          "java_added": 216,
+                                          "java_deleted": 17,
+                                          "js_added": 1583,
+                                          "js_deleted": 637,
+                                          "json_added": 0,
+                                          "json_deleted": 0,
+                                          "total_added": 1799,
+                                          "total_deleted": 654,
+                                          "total_impact": 1145
+                                   },
+                                   "sprint_4": {
+                                          "start_date": "2024-10-24",
+                                          "end_date": "2024-11-06",
+                                          "java_added": 29,
+                                          "java_deleted": 9,
+                                          "js_added": 1137,
+                                          "js_deleted": 450,
+                                          "json_added": 0,
+                                          "json_deleted": 0,
+                                          "total_added": 1166,
+                                          "total_deleted": 459,
+                                          "total_impact": 707
+                                   },
+                                   "sprint_5": {
+                                          "start_date": "2024-11-07",
+                                          "end_date": "2024-11-20",
+                                          "java_added": 48,
+                                          "java_deleted": 25,
+                                          "js_added": 1082,
+                                          "js_deleted": 598,
+                                          "json_added": 0,
+                                          "json_deleted": 0,
+                                          "total_added": 1130,
+                                          "total_deleted": 623,
+                                          "total_impact": 507
+                                   },
+                                   "sprint_6": {
+                                          "start_date": "2024-11-21",
+                                          "end_date": "2024-12-04",
+                                          "java_added": 0,
+                                          "java_deleted": 0,
+                                          "js_added": 0,
+                                          "js_deleted": 0,
+                                          "json_added": 0,
+                                          "json_deleted": 0,
+                                          "total_added": 0,
+                                          "total_deleted": 0,
+                                          "total_impact": 0
+                                   }
+                            },
+                            {
+                                   "total": {
+                                          "java_lines": 640,
+                                          "js_lines": 2734,
+                                          "json_lines": 0,
+                                          "total_impact": 3374
+                                   }
+                            }
+                     ],
+                     "percentage": 20.11
+              },
+              {
+                     "name": "Lou",
+                     "sprints": [
+                            {
+                                   "sprint_1": {
+                                          "start_date": "2024-09-11",
+                                          "end_date": "2024-09-25",
+                                          "java_added": 0,
+                                          "java_deleted": 0,
+                                          "js_added": 0,
+                                          "js_deleted": 0,
+                                          "json_added": 0,
+                                          "json_deleted": 0,
+                                          "total_added": 0,
+                                          "total_deleted": 0,
+                                          "total_impact": 0
+                                   },
+                                   "sprint_2": {
+                                          "start_date": "2024-09-26",
+                                          "end_date": "2024-10-09",
+                                          "java_added": 1253,
+                                          "java_deleted": 214,
+                                          "js_added": 281,
+                                          "js_deleted": 42,
+                                          "json_added": 0,
+                                          "json_deleted": 0,
+                                          "total_added": 1534,
+                                          "total_deleted": 256,
+                                          "total_impact": 1278
+                                   },
+                                   "sprint_3": {
+                                          "start_date": "2024-10-10",
+                                          "end_date": "2024-10-23",
+                                          "java_added": 457,
+                                          "java_deleted": 229,
+                                          "js_added": 668,
+                                          "js_deleted": 173,
+                                          "json_added": 1256,
+                                          "json_deleted": 1170,
+                                          "total_added": 2381,
+                                          "total_deleted": 1572,
+                                          "total_impact": 809
+                                   },
+                                   "sprint_4": {
+                                          "start_date": "2024-10-24",
+                                          "end_date": "2024-11-06",
+                                          "java_added": 11,
+                                          "java_deleted": 2,
+                                          "js_added": 94,
+                                          "js_deleted": 98,
+                                          "json_added": 710,
+                                          "json_deleted": 696,
+                                          "total_added": 815,
+                                          "total_deleted": 796,
+                                          "total_impact": 19
+                                   },
+                                   "sprint_5": {
+                                          "start_date": "2024-11-07",
+                                          "end_date": "2024-11-20",
+                                          "java_added": 569,
+                                          "java_deleted": 135,
+                                          "js_added": 314,
+                                          "js_deleted": 28,
+                                          "json_added": 0,
+                                          "json_deleted": 0,
+                                          "total_added": 883,
+                                          "total_deleted": 163,
+                                          "total_impact": 720
+                                   },
+                                   "sprint_6": {
+                                          "start_date": "2024-11-21",
+                                          "end_date": "2024-12-04",
+                                          "java_added": 0,
+                                          "java_deleted": 0,
+                                          "js_added": 0,
+                                          "js_deleted": 0,
+                                          "json_added": 0,
+                                          "json_deleted": 0,
+                                          "total_added": 0,
+                                          "total_deleted": 0,
+                                          "total_impact": 0
+                                   }
+                            },
+                            {
+                                   "total": {
+                                          "java_lines": 1710,
+                                          "js_lines": 1016,
+                                          "json_lines": 100,
+                                          "total_impact": 2826
+                                   }
+                            }
+                     ],
+                     "percentage": 16.84
+              },
+              {
+                     "name": "Joan",
+                     "sprints": [
+                            {
+                                   "sprint_1": {
+                                          "start_date": "2024-09-11",
+                                          "end_date": "2024-09-25",
+                                          "java_added": 0,
+                                          "java_deleted": 0,
+                                          "js_added": 277,
+                                          "js_deleted": 45,
+                                          "json_added": 0,
+                                          "json_deleted": 0,
+                                          "total_added": 277,
+                                          "total_deleted": 45,
+                                          "total_impact": 232
+                                   },
+                                   "sprint_2": {
+                                          "start_date": "2024-09-26",
+                                          "end_date": "2024-10-09",
+                                          "java_added": 194,
+                                          "java_deleted": 75,
+                                          "js_added": 0,
+                                          "js_deleted": 0,
+                                          "json_added": 0,
+                                          "json_deleted": 0,
+                                          "total_added": 194,
+                                          "total_deleted": 75,
+                                          "total_impact": 119
+                                   },
+                                   "sprint_3": {
+                                          "start_date": "2024-10-10",
+                                          "end_date": "2024-10-23",
+                                          "java_added": 782,
+                                          "java_deleted": 217,
+                                          "js_added": 441,
+                                          "js_deleted": 330,
+                                          "json_added": 72,
+                                          "json_deleted": 0,
+                                          "total_added": 1295,
+                                          "total_deleted": 547,
+                                          "total_impact": 748
+                                   },
+                                   "sprint_4": {
+                                          "start_date": "2024-10-24",
+                                          "end_date": "2024-11-06",
+                                          "java_added": 72,
+                                          "java_deleted": 13,
+                                          "js_added": 904,
+                                          "js_deleted": 479,
+                                          "json_added": 18,
+                                          "json_deleted": 1,
+                                          "total_added": 994,
+                                          "total_deleted": 493,
+                                          "total_impact": 501
+                                   },
+                                   "sprint_5": {
+                                          "start_date": "2024-11-07",
+                                          "end_date": "2024-11-20",
+                                          "java_added": 790,
+                                          "java_deleted": 288,
+                                          "js_added": 337,
+                                          "js_deleted": 204,
+                                          "json_added": 233,
+                                          "json_deleted": 16,
+                                          "total_added": 1360,
+                                          "total_deleted": 508,
+                                          "total_impact": 852
+                                   },
+                                   "sprint_6": {
+                                          "start_date": "2024-11-21",
+                                          "end_date": "2024-12-04",
+                                          "java_added": 0,
+                                          "java_deleted": 0,
+                                          "js_added": 0,
+                                          "js_deleted": 0,
+                                          "json_added": 0,
+                                          "json_deleted": 0,
+                                          "total_added": 0,
+                                          "total_deleted": 0,
+                                          "total_impact": 0
+                                   }
+                            },
+                            {
+                                   "total": {
+                                          "java_lines": 1245,
+                                          "js_lines": 901,
+                                          "json_lines": 306,
+                                          "total_impact": 2452
+                                   }
+                            }
+                     ],
+                     "percentage": 14.61
+              },
+              {
+                     "name": "Bernard",
+                     "sprints": [
+                            {
+                                   "sprint_1": {
+                                          "start_date": "2024-09-11",
+                                          "end_date": "2024-09-25",
+                                          "java_added": 242,
+                                          "java_deleted": 155,
+                                          "js_added": 0,
+                                          "js_deleted": 0,
+                                          "json_added": 0,
+                                          "json_deleted": 0,
+                                          "total_added": 242,
+                                          "total_deleted": 155,
+                                          "total_impact": 87
+                                   },
+                                   "sprint_2": {
+                                          "start_date": "2024-09-26",
+                                          "end_date": "2024-10-09",
+                                          "java_added": 167,
+                                          "java_deleted": 131,
+                                          "js_added": 298,
+                                          "js_deleted": 211,
+                                          "json_added": 123,
+                                          "json_deleted": 12,
+                                          "total_added": 588,
+                                          "total_deleted": 354,
+                                          "total_impact": 234
+                                   },
+                                   "sprint_3": {
+                                          "start_date": "2024-10-10",
+                                          "end_date": "2024-10-23",
+                                          "java_added": 513,
+                                          "java_deleted": 307,
+                                          "js_added": 424,
+                                          "js_deleted": 177,
+                                          "json_added": 5,
+                                          "json_deleted": 3,
+                                          "total_added": 942,
+                                          "total_deleted": 487,
+                                          "total_impact": 455
+                                   },
+                                   "sprint_4": {
+                                          "start_date": "2024-10-24",
+                                          "end_date": "2024-11-06",
+                                          "java_added": 29,
+                                          "java_deleted": 23,
+                                          "js_added": 491,
+                                          "js_deleted": 860,
+                                          "json_added": 12,
+                                          "json_deleted": 2,
+                                          "total_added": 532,
+                                          "total_deleted": 885,
+                                          "total_impact": -353
+                                   },
+                                   "sprint_5": {
+                                          "start_date": "2024-11-07",
+                                          "end_date": "2024-11-20",
+                                          "java_added": 1086,
+                                          "java_deleted": 554,
+                                          "js_added": 753,
+                                          "js_deleted": 476,
+                                          "json_added": 24,
+                                          "json_deleted": 9,
+                                          "total_added": 1863,
+                                          "total_deleted": 1039,
+                                          "total_impact": 824
+                                   },
+                                   "sprint_6": {
+                                          "start_date": "2024-11-21",
+                                          "end_date": "2024-12-04",
+                                          "java_added": 193,
+                                          "java_deleted": 32,
+                                          "js_added": 243,
+                                          "js_deleted": 138,
+                                          "json_added": 0,
+                                          "json_deleted": 0,
+                                          "total_added": 436,
+                                          "total_deleted": 170,
+                                          "total_impact": 266
+                                   }
+                            },
+                            {
+                                   "total": {
+                                          "java_lines": 1028,
+                                          "js_lines": 347,
+                                          "json_lines": 138,
+                                          "total_impact": 1513
+                                   }
+                            }
+                     ],
+                     "percentage": 9.02
+              }
+       ]
+}

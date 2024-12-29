@@ -1,0 +1,20 @@
+.home-page {
+	background-color: #21277c;
+	min-height: 100vh;
+	color: white;
+}
+
+.home-page-content {
+	padding: 50px;
+}
+
+.home-page-title {
+	font-size: 96px;
+	position: absolute;
+	bottom: 20%;
+}
+
+.home-page-highlight {
+	background-color: #ff006c;
+	padding: 0 12px;
+}
